@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<title>Login Screen</title>
+</head>
+<body>
+	<div class="container con">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="text-center text-white">Project on the usage of modal</h1>
+				<p class="text-center">
+					<a href="#" data-toggle="modal" role="button" data-target="#login_modal_target" class="btn btn-secondary btn-lg">Login/Sign up</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="login_modal_target">
+		<div class="modal-dialog modaldialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<img src="Images/itlogo.png" class="imglogo" alt="Unavailable">
+				</div>
+				<div class="modal-header">
+					<h5 class="modal-title headertext">Login</h5>
+				</div>
+				<div id="modal_form" class="">
+					<form>
+						<div class="modal-body">
+							<div>
+								<span>Type your E-mail & password here:</span>
+							</div>
+							<span>Enter E-mail-</span>
+							<input class="form-control" placeholder="E-mail" type="text" required/>
+							<span>Enter Password-</span>
+							<input class="form-control" placeholder="Password" type="password" required/>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox">Remember Me
+								</label>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<div class="row">
+								<div class="col-6">
+									<button type="submit" class="btn btn-primary btn-block">Login</button>
+								</div>
+								<div class="col-6">
+									<button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
